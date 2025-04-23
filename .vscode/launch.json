@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Debug Main",
+          "type": "go",
+          "request": "launch",
+          "mode": "debug",
+          // 或直接指定文件 ↓
+          "program": "${workspaceFolder}/cmd/main.go",
+          "env": {},
+          "args": []
+      }
+  ]
+}
